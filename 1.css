@@ -1,0 +1,202 @@
+body{
+	background-color: #F8F8F8;
+}
+
+.header {
+	border-bottom: 1px solid #FC0;
+	height: 70px;
+	background-color: #002346;
+}
+
+.container {
+	width: 1200px;
+	margin:0 auto;
+}
+
+.logo {
+	float: left;
+	margin-top: 5px;
+	height: 60px;
+	width: 180px;
+}
+
+.nav {
+	float: left;
+	margin-top: 25px;
+}
+
+.nav li{
+	float: left;
+	width: 120px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.nav a{
+	color: #FC0;
+}
+
+.form {
+	float: right;
+	margin-top: 25px;
+}
+
+.search{
+	float: left;
+	width: 165px;
+	height: 25px;
+	border: 2px solid #FC0;
+}
+
+.submit{
+	float: left;
+	width: 30px;
+	height: 30px;
+	background: #FC0 url(D:/web/images/作业6/图片/search.png) no-repeat center center;
+}
+
+.banner{
+	height:400px;
+	position: relative;
+}
+
+.banner li{
+	width: 100%;
+	height: 400px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.one{
+	background: url(d:/web/images/作业6/图片/banner/3.jpg) no-repeat center center;
+	background-size: 75% 100%;
+	animation: banner 1s infinite; 
+}
+
+.two{
+	background: url(d:/web/images/作业6/图片/banner/1.jpg) no-repeat center center;
+	background-size: 75% 100%;
+}
+
+.three{
+	background: url(d:/web/images/作业6/图片/banner/2.jpg) no-repeat center center;
+	background-size: 75% 100%;
+}
+
+.prev{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 150px;
+	left: 4%;
+}
+
+.next{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 150px;
+	right:4%;
+}
+
+.title{
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.title h2{
+	font-weight: bold;
+	background: url(d:/web/images/作业6/图片/banner/line1.jpg) no-repeat center center;
+	background-size: 1200px 50px;
+}
+
+.mail-one li{
+	float: left;
+}
+
+.curator img{
+	margin-left: 2px;
+	width: 130px;
+	height: 500px;
+}
+
+.title-one{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.title h3{
+    font-weight: bold;
+	text-align: left;
+	color: #009;
+	font-size: 20px;
+}
+
+.product{
+	float: left;
+	width: 700px;
+	height: 500px;
+}
+
+.product li{
+	float: left;
+}
+
+.mail-two li{
+	position: relative;
+}
+
+.mail-two li div{
+	position: absolute;
+	bottom: 2%;
+	left: 0;
+	right: 0;
+	width: 200px;
+	height: 40px;
+	background: rgba(51,102,153,0.4 );
+	color: #FC0;
+	text-align: center;
+}
+
+.product-one img{
+	position: relative;
+	padding-top: 15px;
+	padding-right: 25px;
+	width: 200px;
+	height: 200px;
+}
+
+.form-one{
+	float: right;
+	width: 500px;
+	height: 430px;
+	background: url(d:/web/images/作业6/图片/background.jpg) no-repeat center center;
+	background-size: 500px 430px;
+	opacity: 0.4;
+}
+
+p{
+	display: inline-block;
+}
+
+.sign{
+	margin-top: 200px;
+	margin-left: 150px;
+	float: left;
+}
+
+.box{
+	background-color: #002346;
+	height: 100px;
+}
+
+.main-content{
+	margin-top: 30px;
+	margin-left: 500px;
+	float: left;
+	color: #FC0;
+    text-align: center;
+}
